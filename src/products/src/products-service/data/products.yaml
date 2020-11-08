@@ -1,0 +1,691 @@
+- id: 1
+  name: Black Leather Backpack
+  category: accessories
+  style: bag
+  description: Our handmade leather backpack will look great at the office or out on the town.
+  price: 109.99
+  image: "1.jpg"
+  featured: true
+- id: 2
+  name: Striped Shirt
+  category: apparel
+  style: shirt
+  description: A classic look for the summer season.
+  price: 9.99
+  image: "1.jpg"
+  featured: true
+  gender_affinity: F
+- id: 3
+  name: Beard Oil
+  category: beauty
+  style: grooming
+  description: Lightly scented with a manly robust fragrance perfect for your face grass.
+  price: 9.99
+  image: "1.jpg"
+  featured: true
+  gender_affinity: M
+- id: 4
+  name: Fitness Tracker
+  category: electronics
+  style: wearable
+  description: Almost as good as the real thing.
+  price: 89.99
+  image: "1.jpg"
+  featured: true
+- id: 5
+  name: Super Knit Sneakers
+  category: footwear
+  style: sneaker
+  description: Modern running shoes with our latest technology.
+  price: 129.99
+  image: "1.jpg"
+  featured: true
+  gender_affinity: M
+- id: 6
+  name: Coffee Gift Package
+  category: housewares
+  style: consumable
+  description: Mug and Coffee gift set combination package.
+  price: 39.99
+  image: "1.jpg"
+  featured: true
+- id: 7
+  name: Gold Anchor Womens Bracelet
+  category: jewelry
+  style: bracelet
+  description: A fresh accessory that works with almost any outfit.
+  price: 49.99
+  image: "1.jpg"
+  gender_affinity: F
+- id: 8
+  name: LED Dog Collar
+  category: outdoors
+  style: pet
+  description: Brightly lit collar for your loved pet.
+  price: 29.99
+  image: "1.jpg"
+- id: 9
+  name: Black Leather Shoulder Bag
+  category: accessories
+  style: bag
+  description: Our handmade leather shoulder bag will look great at the office or out on the town.
+  price: 109.99
+  image: "2.jpg"
+  gender_affinity: F
+- id: 10
+  name: Classic T- Shirt
+  category: apparel
+  style: shirt
+  description: A classic look for the summer season.
+  price: 9.99
+  image: "2.jpg"
+- id: 11
+  name: Odorless Essential Oil
+  category: beauty
+  style: grooming
+  description: This essential oil in liquid and balm forms smooths rough skin without a scent.
+  price: 9.99
+  image: "2.jpg"
+- id: 12
+  name: Lightning Cable
+  category: electronics
+  style: cable
+  description: Charge your phone on the go.
+  price: 89.99
+  image: "2.jpg"
+- id: 13
+  name: LED Leather Hi-Tops
+  category: footwear
+  style: sneaker
+  description: Modern running shoes with our latest technology.
+  price: 129.99
+  image: "2.jpg"
+  gender_affinity: M
+- id: 14
+  name: Coffee Gift Package
+  category: housewares
+  style: consumable
+  description: Mug and Coffee gift set combination package.
+  price: 39.99
+  image: "2.jpg"
+- id: 15
+  name: Leather Anchor Mens Bracelet
+  category: jewelry
+  style: bracelet
+  description: A fresh accessory that works with almost any outfit.
+  price: 49.99
+  image: "2.jpg"
+  gender_affinity: M
+  featured: true
+- id: 16
+  name: Neon Colored Fishing Lure
+  category: outdoors
+  style: fishing
+  description: This lure will be hard to pass up with its bright neon green and yellow colors.
+  price: 9.99
+  image: "2.jpg"
+- id: 17
+  name: Black Women's Purse
+  category: accessories
+  style: bag
+  description: Spacious and stylish in a single bag.
+  price: 109.99
+  image: "3.jpg"
+  gender_affinity: F
+- id: 18
+  name: Accent Scarf
+  category: apparel
+  style: scarf
+  description: Add a colorful navy blue and yellow accent to any outfit.
+  price: 9.99
+  image: "3.jpg"
+  gender_affinity: F
+- id: 19
+  name: Vitamin E Oil
+  category: beauty
+  style: grooming
+  description: Removes scars and blemishes and moisturizes skin.
+  price: 9.99
+  image: "3.jpg"
+  gender_affinity: M
+- id: 20
+  name: Black Bluetooth Portable Speaker
+  category: electronics
+  style: speaker
+  description: Blast your tunes anywhere with this Bluetooth wireless speaker.
+  price: 89.99
+  image: "3.jpg"
+- id: 21
+  name: Knit Black Sneakers
+  category: footwear
+  style: sneaker
+  description: Look sharp with these black knit sneakers with white soles.
+  price: 129.99
+  image: "3.jpg"
+  gender_affinity: M
+- id: 22
+  name: Coffee Gift Package
+  category: housewares
+  style: consumable
+  description: Mug and Coffee gift set combination package.
+  price: 39.99
+  image: "3.jpg"
+- id: 23
+  name: Diamond Studded Classic Gold Bracelet
+  category: jewelry
+  style: bracelet
+  description: Dress up any outfit with this gold and diamond bracelet.
+  price: 49.99
+  image: "3.jpg"
+  gender_affinity: F
+- id: 24
+  name: Classic Fishing Pole
+  category: outdoors
+  style: fishing
+  description: Land a big one with our classic fishing rod and reel.
+  price: 9.99
+  image: "3.jpg"
+- id: 25
+  name: Red Leather Purse
+  category: accessories
+  style: bag
+  description: With stylish gold chain and clasp this bright red purse will set off any outfit.
+  price: 109.99
+  image: "4.jpg"
+  gender_affinity: F
+  featured: true
+- id: 26
+  name: Blue Shirt
+  category: apparel
+  style: shirt
+  description: This solid blue/slate colored mens shirt works in casual settings or under a sport coat.
+  price: 9.99
+  image: "4.jpg"
+  gender_affinity: M
+  featured: true
+- id: 27
+  name: Bath Bomb
+  category: beauty
+  style: bathing
+  description: Invigorate your next batch while moisturizing skin with these amazing bath bombs.
+  price: 9.99
+  image: "10.jpg"
+  gender_affinity: F
+  featured: true
+- id: 28
+  name: Blue Mushroom Wireless Speaker
+  category: electronics
+  style: speaker
+  description: This funky wireless speaker features a suction cup to temporarily mount on any flat surface.
+  price: 89.99
+  image: "4.jpg"
+- id: 29
+  name: LED Leather Hi-Tops
+  category: footwear
+  style: sneaker
+  description: Look sharp and be the life of the party with these LED soles.
+  price: 129.99
+  image: "4.jpg"
+  gender_affinity: M
+- id: 30
+  name: Nutmeg Grater
+  category: housewares
+  style: kitchen
+  description: Grate fresh nutmeg in your coffee and desserts using this compact grater.
+  price: 39.99
+  image: "4.jpg"
+- id: 31
+  name: Black Bead Womens Bracelet
+  category: jewelry
+  style: bracelet
+  description: A fresh accessory that works with almost any outfit.
+  price: 49.99
+  image: "4.jpg"
+  gender_affinity: F
+- id: 32
+  name: Classic Fishing Reel
+  category: outdoors
+  style: fishing
+  description: Add this attractive gold and silver fishing reel to an existing pole.
+  price: 29.99
+  image: "4.jpg"
+- id: 33
+  name: Brown Women's Purse
+  category: accessories
+  style: bag
+  description: This brown rich leather purse has a classic style.
+  price: 109.99
+  image: "5.jpg"
+  gender_affinity: F
+- id: 34
+  name: Classic Bomber Jacket
+  category: apparel
+  style: jacket
+  description: Pull off a classic look while staying warm in this leather bomber jacket.
+  price: 159.99
+  image: "5.jpg"
+  gender_affinity: M
+- id: 35
+  name: Vitamin E Oil
+  category: beauty
+  style: grooming
+  description: Removes scars and blemishes and moisturizes skin.
+  price: 9.99
+  image: "5.jpg"
+- id: 36
+  name: Exercise Headphones
+  category: electronics
+  style: headphones
+  description: These stylishly red ear buds wrap securely around your ears making them perfect when exercising or on the go.
+  price: 19.99
+  image: "5.jpg"
+  featured: true
+- id: 37
+  name: Sporty Deck Shoe
+  category: footwear
+  style: sneaker
+  description: Whether on deck or on the town, these blue deck shoes with brown leather accents will draw a salute.
+  price: 129.99
+  image: "5.jpg"
+- id: 38
+  name: Coffee Gift Package
+  category: housewares
+  style: consumable
+  description: Mug and Coffee gift set combination package.
+  price: 39.99
+  image: "5.jpg"
+- id: 39
+  name: Turquoise Womens Necklace
+  category: jewelry
+  style: necklace
+  description: This attractive turquoise pendant necklace will set off any outfit.
+  price: 49.99
+  image: "5.jpg"
+  gender_affinity: F
+- id: 40
+  name: Spotted Fishing Lure
+  category: outdoors
+  style: fishing
+  description: Land a big one with this blackspotted lure with green bushy tail.
+  price: 9.99
+  image: "5.jpg"
+- id: 41
+  name: Tan Leather Shoulder Bag
+  category: accessories
+  style: bag
+  description: Clean and simple styling.
+  price: 109.99
+  image: "6.jpg"
+  gender_affinity: F
+- id: 42
+  name: Multi Color Socks
+  category: apparel
+  style: socks
+  description: Bring some life to your sock game with some multi-color geometric shapes.
+  price: 9.99
+  image: "6.jpg"
+  gender_affinity: F
+- id: 43
+  name: Beauty Mask
+  category: beauty
+  style: grooming
+  description: Remove dirt and revitalize skin with this black kelp mask.
+  price: 9.99
+  image: "9.jpg"
+- id: 44
+  name: Portable Speaker
+  category: electronics
+  style: speaker
+  description: Take this compact portable speaker with you when you travel or when you're outdoors.
+  price: 89.99
+  image: "6.jpg"
+- id: 45
+  name: Classic Black Leather Hi-Tops
+  category: footwear
+  style: sneaker
+  description: Casual or dressy, this black leather hi-top has you covered.
+  price: 129.99
+  image: "6.jpg"
+- id: 46
+  name: Smoothie Blender
+  category: housewares
+  style: appliance
+  description: Blend up flavorful smoothies using this attractive blender
+  price: 39.99
+  image: "6.jpg"
+- id: 47
+  name: Gold Bracelt with Multi-Color Tassels
+  category: jewelry
+  style: bracelet
+  description: Add some color and style with this unique bracelet.
+  price: 49.99
+  image: "6.jpg"
+  gender_affinity: F
+- id: 48
+  name: Silver Fishing Lure
+  category: outdoors
+  style: fishing
+  description: Catch your limit in no time with this reflective silver lure with blue and black accents.
+  price: 9.99
+  image: "6.jpg"
+  featured: true
+- id: 49
+  name: Light Brown Leather Lace-Up Boot
+  category: footwear
+  style: boot
+  description: Sturdy enough for the outdoors yet stylish to wear out on the town.
+  price: 89.95
+  image: "11.jpg"
+- id: 50
+  name: Blue Wind Breaker Jacket
+  category: apparel
+  style: jacket
+  description: Stay warm and comfortable on those cool fall evenings.
+  price: 79.95
+  image: "25.jpg"
+  gender_affinity: M
+- id: 51
+  name: Ceramic Mixing Bowls
+  category: housewares
+  style: bowls
+  description: Add some style to your kitchen with this artistically designed mixing bowls.
+  price: 49.95
+  image: "7.jpg"
+  featured: true
+- id: 52
+  name: Turquoise Globe Earrings
+  category: jewelry
+  style: earrings
+  description: Accessorize and set off any outfit with these attractive turquoise earrings.
+  price: 29.99
+  image: "7.jpg"
+  gender_affinity: F
+  featured: true
+- id: 53
+  name: Watermelon Flavored Lip Balm
+  category: beauty
+  style: grooming
+  description: Protect your lips from harshness of winter with this flavorful lip balm.
+  price: 9.99
+  image: "8.jpg"
+  gender_affinity: F
+- id: 54
+  name: Over-Ear Headphones
+  category: electronics
+  style: headphones
+  description: Immerse youself in listening pleasure with these high-quality over-the-ear headphones.
+  price: 129.99
+  image: "7.jpg"
+- id: 55
+  name: Pink Leather Purse
+  category: accessories
+  style: bag
+  description: Conveniently sized to carry all your essentials in style, pink tassle included.
+  price: 89.99
+  image: "9.jpg"
+  gender_affinity: F
+- id: 56
+  name: Red Fishing Lure
+  category: outdoors
+  style: fishing
+  description: Every tackle box needs a silver and red reflective fishing lure.
+  price: 9.99
+  image: "12.jpg"
+- id: 57
+  name: Eyeshadow Palette - Set of 3 Palettes
+  category: beauty
+  style: makeup
+  description: Perfect for trialling different shades, each palette contains 4 different shades.
+  price: 145.00
+  image: "11.jpg"
+- id: 58
+  name: Waterproof Eyeliner and Mascara
+  category: beauty
+  style: makeup
+  description: In stylish yellow, guaranteed to stay on in sauna and car-wash.
+  price: 27.00
+  image: "12.jpg"
+- id: 59
+  name: Divine Shine - Satin Rose Lipstick Set
+  category: beauty
+  style: makeup
+  description: You get not only lipstick, but that other thing with the mirror. Brilliant!
+  price: 35.00
+  image: "13.jpg"
+- id: 60
+  name: Gloss Bomb Universal Lip Luminizer
+  category: beauty
+  style: makeup
+  description: 100% guaranteed universal and 100% luminous.
+  price: 19.00
+  image: "14.jpg"
+- id: 61
+  name: 7-in-1 Daily Wear Palette Essentials
+  category: beauty
+  style: makeup
+  description: You get a whole bunch of stuff and it is super good quality too.
+  price: 103.00
+  image: "15.jpg"
+- id: 62
+  name: Eye Care Set - Sparkle Gloss Eyes and Lashes
+  category: beauty
+  style: makeup
+  description: Your eyes will dazzle and gloss and shine and fizz pop.
+  price: 95.00
+  image: "16.jpg"
+- id: 63
+  name: 15 Piece Makeup Brush Set with Fold Up Leather Case
+  category: beauty
+  style: makeup
+  description: A great selection of makeup brushes; look good just carrying it around!
+  price: 99.00
+  image: "17.jpg"
+  gender_affinity: F
+  image_license: "Free for Commercial Use"
+  link: https://www.pikrepo.com/fmvtc/black-makeup-brush-set-in-bag
+- id: 64
+  name: Lovely Blue Mascara
+  category: beauty
+  style: makeup
+  description: You will never look beyond this shade of blue.
+  price: 29.00
+  image: "18.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://pxhere.com/en/photo/57398
+- id: 65
+  name: Nail Varnish for Conquerors of Hearts
+  category: beauty
+  style: makeup
+  description: Occupy his/her heart with your talons of love!
+  price: 24.00
+  image: "19.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://www.needpix.com/photo/1711500/nail-varnish-nail-design-cosmetics-manicure-fingernails-paint-toe-nails-fashionable-beauty
+- id: 66
+  name: Rose Pink Blush Brush
+  category: beauty
+  style: makeup
+  description: For those looking for a blush brush and something that is rose pink.
+  price: 22.00
+  image: "20.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/photos/rouge-brush-cosmetics-rouge-brush-2092439/
+- id: 67
+  name: "Subtle and Fresh: Palette of 15 Concealers"
+  category: beauty
+  style: makeup
+  description: These colours allow your inner you to shine through, but shinier.
+  price: 44.00
+  image: "21.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use
+  link: https://www.pxfuel.com/en/free-photo-xidzw
+- id: 68
+  name: Deep Disguise Concealer
+  category: beauty
+  style: makeup
+  description: Pimples? Invisible. Warts? Never happened. No need for witchcraft when you have science!
+  price: 12.00
+  image: "22.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://commons.m.wikimedia.org/wiki/File:Tcsfoundationlogo.jpg
+- id: 69
+  name: Classic Bombshell Lipstick
+  category: beauty
+  style: makeup
+  description: For the no-nonsense blow-them-away classic look.
+  price: 24.00
+  image: "23.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/photos/lipstick-lips-makeup-cosmetics-5559338/
+- id: 70
+  name: Intense Matte Lipstick
+  category: beauty
+  style: makeup
+  description: Inspire awe, be the mystery.
+  price: 28.00
+  image: "24.jpg"
+  gender_affinity: F
+  image_license: Unsplash - free for commercial use
+  link: https://unsplash.com/photos/rjB_1MT6G18
+- id: 71
+  name: 4-Piece Makeup Brush Set
+  category: beauty
+  style: makeup
+  description: Get makeup done, the only way how, on your skin.
+  price: 26.00
+  image: "25.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/photos/maciag-brush-makeup-brushes-5208359/
+- id: 72
+  name: Gangster-Girl Lipstick
+  category: beauty
+  style: makeup
+  description: Take out his/her heart with this lipstick, or shoot him/her... whichever suits.
+  price: 40.00
+  image: "26.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use
+  link: https://www.pikrepo.com/fyvwn/red-and-gold-lipstick-on-white-background
+- id: 73
+  name: Lip Brush
+  category: beauty
+  style: makeup
+  description: Delicately calibrated hairs for consistency of application
+  price: 32.00
+  image: "27.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use
+  link: https://unsplash.com/photos/qbo7DPBvnV0
+- id: 74
+  name: Precious Cargo Makeup Containers
+  category: beauty
+  style: makeup
+  description: Strong reinforced plastic containers, with bright stylings.
+  price: 12.00
+  image: "28.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://pixy.org/5203022/
+- id: 75
+  name: Burn! Lipstick
+  category: beauty
+  style: makeup
+  description: The lipstick is burn red - and so is the fiery translucent sheath.
+  price: 18.00
+  image: "29.jpg"
+  gender_affinity: F
+  image_license: Public domain
+  link: https://www.pikist.com/free-photo-xvcbj
+- id: 76
+  name: Grandma's Mascara
+  category: beauty
+  style: makeup
+  description: The 20s look that never went out of fashion, till after the 20s.
+  price: 18.00
+  image: "30.jpg"
+  gender_affinity: F
+  image_license: Free for commercial use
+  link: https://www.pickpik.com/cosmetics-make-up-makeup-beauty-color-eyes-138539
+- id: 77
+  name: Camera Tripod
+  category: electronics
+  style: photography
+  description: Take video anywhere, anytime, like a spy.
+  price: 49.00
+  image: "15.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://www.needpix.com/photo/908201/gorillapod-with-camera-free-pictures-free-photos-free-images-royalty-free
+- id: 78
+  name: Nice Stripy Blouse
+  category: apparel
+  style: blouse
+  description: Easy-wearing and comfy momfy!
+  price: 39.00
+  image: "32.jpg"
+  gender_affinity: F
+  image_license: Made by Dae.mn
+  link:
+- id: 79
+  name: Pocket Powder Case
+  category: beauty
+  style: makeup
+  description: Touch up on the go! Wherever, whenever!
+  price: 29.00
+  image: "31.jpg"
+  gender_affinity: F
+  image_license: Public domain
+  link: https://www.pikist.com/free-photo-ixyyz
+- id: 80
+  name: Freestanding Glass Makeup Mirror
+  category: housewares
+  style: bedroom
+  description: Do your makeup properly! Don't make a big mess like someone else we know!
+  price: 99.00
+  image: "8.jpg"
+  gender_affinity: F
+  image_license: CC0
+  link: https://www.needpix.com/photo/download/1336308/mirror-small-reflection-decoration-modern-design-frame-round-shop
+- id: 81
+  name: Perfect grey sofa
+  category: housewares
+  style: salon
+  description: Comfy, warm, and nice.
+  price: 399.00
+  image: "9.jpg"
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/photos/furniture-modern-luxury-indoors-3271762/
+- id: 82
+  name: Perfect cushions
+  category: housewares
+  style: salon
+  description: Your guests will say "I need cushions". You will say, "There, where you are sitting!". The best day.
+  price: 179.00
+  image: "10.jpg"
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/fr/photos/oreillers-patron-lit-int%C3%A9rieur-4326131/
+- id: 83
+  name: Classic coat-rack
+  category: housewares
+  style: salon
+  description: All the functionality of coatracks with the style of coatracks
+  price: 167.00
+  image: "11.jpg"
+  image_license: Free for commercial use - just do not resell as a stock photo
+  link: https://pixabay.com/photos/hat-coat-rack-wing-pet-fashion-2176837/
+- id: 84
+  name: Spare bookshelves
+  category: housewares
+  style: salon
+  description: With that spare Scandinavian look.
+  price: 239.00
+  image: "12.jpg"
+  image_license: CC0
+  link: https://www.needpix.com/photo/download/1856333/shelf-white-living-world-bookshelf-books-bookshelves-set-up-living-room-book

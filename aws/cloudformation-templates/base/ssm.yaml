@@ -1,0 +1,204 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: >
+    This template deploys the Retail Demo Store SSM Parameters.
+
+Parameters:
+  StackBucketName:
+    Type: String
+
+  ExperimentStrategyTableName:
+    Type: String
+
+  AmplitudeApiKey:
+    Type: String
+    Description: Amplitude API key for product analytics and A/B testing results (optional).
+    NoEcho: true
+
+  OptimizelySdkKey:
+    Type: String
+    Description: Optimizely SDK key for experimentation (optional).
+    NoEcho: true
+  
+  SegmentWriteKey:
+    Type: String
+    Description: Write key for the Segment source used to gather real-time events (optional).
+    NoEcho: true
+
+Conditions:
+  HasAmplitudeApiKey:
+    !Not [!Equals [!Ref AmplitudeApiKey, ""]]
+  HasOptimizelySdkKey:
+    !Not [!Equals [!Ref OptimizelySdkKey, ""]]
+  HasSegmentWriteKey:
+    !Not [!Equals [!Ref SegmentWriteKey, ""]]
+
+Resources:
+
+  ParameterStackBucketName:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-stack-bucket"
+      Type: "String"
+      Value: !Ref StackBucketName
+      Description: "Retail Demo Store Stack Bucket Parameter"
+
+  ParameterPersonalizeDatasetGroupName:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-personalize-datasetgroup-name"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalize dataset group name"
+
+  ParameterRelatedProductsCampaignArn:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-related-products-campaign-arn"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Related Products Campaign Arn Parameter"
+
+  ParameterProductRecommendationCampaignArn:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-product-recommendation-campaign-arn"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Product Recommendation Campaign Arn Parameter"
+
+  ParameterPersonalizedRankingCampaignArn:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-personalized-ranking-campaign-arn"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalized Ranking Campaign Arn Parameter"
+
+  ParameterPersonalizedDiscountsCampaignArn:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-personalized-discount-campaign-arn"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalized Discounts Campaign Arn Parameter"
+
+  ParameterPersonalizeTrainConfig:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-training-config"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalize Train Config"
+
+  ParameterPersonalizeFilterPurchasedArn:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-personalize-filter-purchased-arn"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalize Filter Purchased Products Arn Parameter"
+
+  ParameterExperimentStrategyTableName:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-experiment-strategy-table-name"
+      Type: "String"
+      Value: !Ref ExperimentStrategyTableName
+      Description: "Retail Demo Store Experiment Strategy DDB Table Name"
+
+  ParameterPersonalizeEventTrackerId:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-personalize-event-tracker-id"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store Personalize Event Tracker ID Parameter"
+      
+  ParameterAmplitudeApiKey:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-amplitude-api-key"
+      Type: "String"
+      Value: !If [HasAmplitudeApiKey, !Ref AmplitudeApiKey, 'NONE']
+      Description: "Retail Demo Store Amplitude API key"
+
+  ParameterOptimizelySdkKey:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-optimizely-sdk-key"
+      Type: "String"
+      Value: !If [HasOptimizelySdkKey, !Ref OptimizelySdkKey, 'NONE']
+      Description: "Retail Demo Store Optimizely SDK key"
+
+  ParameterIVSVideoChannelMap:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-ivs-video-channel-map"
+      Type: "String"
+      Value: "NONE"
+      Description: "Retail Demo Store video file to IVS channel mapping"
+
+  ParameterSegmentWriteKey:
+    Type: "AWS::SSM::Parameter"
+    Properties:
+      Name: "retaildemostore-segment-write-key"
+      Type: "String"
+      Value: !If [HasSegmentWriteKey, !Ref SegmentWriteKey, 'NONE']
+      Description: "Retail Demo Store Segment source write key"
+
+Outputs:
+
+  ParameterStackBucketName:
+    Description: Stack Bucket Name Parameter
+    Value: !Ref ParameterStackBucketName
+
+  ParameterRelatedProductsCampaignArn:
+    Description: Related Products Campaign Arn Parameter
+    Value: !Ref ParameterRelatedProductsCampaignArn
+    
+  ParameterProductRecommendationCampaignArn:
+    Description: Product Recommendation Campaign Arn Parameter
+    Value: !Ref ParameterProductRecommendationCampaignArn
+
+  ParameterPersonalizedRankingCampaignArn:
+    Description: Personalized Ranking Campaign Arn
+    Value: !Ref ParameterPersonalizedRankingCampaignArn
+
+  ParameterPersonalizedDiscountsCampaignArn:
+    Description: Personalized Discounts Campaign Arn
+    Value: !Ref ParameterPersonalizedDiscountsCampaignArn
+
+  ParameterPersonalizeTrainConfig:
+    Description: Train config
+    Value: !Ref ParameterPersonalizeTrainConfig
+
+  ParameterPersonalizeFilterPurchasedArn:
+    Description: Personalize Filter Purchased Products Arn
+    Value: !Ref ParameterPersonalizeFilterPurchasedArn
+  
+  ParameterExperimentStrategyTableName:
+    Description: Experiment Strategy Table Name
+    Value: !Ref ParameterExperimentStrategyTableName
+
+  ParameterPersonalizeEventTrackerId:
+    Description: Personalize Event Tracker ID Parameter
+    Value: !Ref ParameterPersonalizeEventTrackerId
+
+  ParameterAmplitudeApiKey:
+    Description: Amplitude API key
+    Value: !Ref ParameterAmplitudeApiKey
+
+  ParameterOptimizelySdkKey:
+    Description: Optimizely SDK key
+    Value: !Ref ParameterOptimizelySdkKey
+
+  ParameterIVSVideoChannelMap:
+    Description: Retail Demo Store video file to IVS channel mapping
+    Value: !Ref ParameterIVSVideoChannelMap
+
+  ParameterSegmentWriteKey:
+    Description: Segment write key
+    Value: !Ref ParameterSegmentWriteKey 
+
